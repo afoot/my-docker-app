@@ -1,11 +1,11 @@
 name: Docker Build & Deploy
 
- on:
+on:
    push:
      branches:
        - main
 
- jobs:
+jobs:
    build-and-deploy:
      runs-on: ubuntu-latest
      steps:
