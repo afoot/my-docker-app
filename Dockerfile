@@ -1,7 +1,7 @@
 FROM node:14
 
  WORKDIR /app
- RUN npm init
+ RUN npm init -y
  COPY package*.json .
  RUN npm install --no-audit
 
